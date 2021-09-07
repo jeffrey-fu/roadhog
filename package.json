@@ -1,5 +1,5 @@
 {
-  "name": "roadhog",
+  "name": "ry-roadhog",
   "version": "2.5.0-beta.4",
   "description": "Cli tool for creating react apps, configurable version of create-react-app.",
   "bin": {
@@ -16,8 +16,13 @@
     "chencheng <sorrycc@gmail.com> (https://github.com/sorrycc)"
   ],
   "license": "MIT",
+  "homepage": "https://github.com/sorrycc/roadhog",
   "bugs": {
     "url": "https://github.com/sorrycc/roadhog/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/jeffrey-fu/roadhog"
   },
   "files": [
     "bin",

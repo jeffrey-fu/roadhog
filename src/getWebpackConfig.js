@@ -22,9 +22,9 @@ export default function(opts = {}) {
       entry: entry || config.entry,
       isBuild: !isDev,
     }),
-    babel: config.babel || {
+    babel: {
       presets: [
-        [babel, { browsers: browserslist }],
+        [babel, { browsers: browserslist, ...config.babel }],
         ...(config.extraBabelPresets || []),
       ],
       plugins: config.extraBabelPlugins || [],

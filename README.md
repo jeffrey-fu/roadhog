@@ -99,6 +99,7 @@ Index:
 * [html](#html)
 * [disableCSSModules](#disablecssmodules)
 * [disableCSSSourceMap](#disablecsssourcemap)
+* [babel](#babel)
 * [extraBabelPresets](#extrababelpresets)
 * [extraBabelPlugins](#extrababelplugins)
 * [extraBabelIncludes](#extrababelincludes)
@@ -242,6 +243,18 @@ Disable [CSS Modules](https://github.com/css-modules/css-modules)，we do not r
 ### disableCSSSourceMap
 
 Disable generate CSS's SourceMap.
+
+### babel
+
+Extend internal babel preset [babel-preset-umi](https://unpkg.com/browse/babel-preset-umi@1.8.4/src/index.js) options,the formatt is Object.
+
+e.g.
+
+```markup
+babel: {
+  env: { modules: false },
+},
+```
 
 ### extraBabelPresets
 

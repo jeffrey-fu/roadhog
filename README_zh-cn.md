@@ -98,6 +98,7 @@ export default {
 * [html](#html)
 * [disableCSSModules](#disablecssmodules)
 * [disableCSSSourceMap](#disablecsssourcemap)
+* [babel](#babel)
 * [extraBabelPresets](#extrababelpresets)
 * [extraBabelPlugins](#extrababelplugins)
 * [extraBabelIncludes](#extrababelincludes)
@@ -229,6 +230,18 @@ export default {
 ### disableCSSSourceMap
 
 禁用 CSS 的 SourceMap 生成。
+
+### babel
+
+扩展内置 [babel-preset-umi](https://unpkg.com/browse/babel-preset-umi@1.8.4/src/index.js) 配置，格式为对象。
+
+比如：
+
+```markup
+babel: {
+  env: { modules: false },
+},
+```
 
 ### extraBabelPresets
 
